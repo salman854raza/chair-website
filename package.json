@@ -1,5 +1,5 @@
 {
-  "name": "shoes2-website",
+  "name": "professional-clothing-store",
   "private": true,
   "version": "1.0.0",
   "main": "package.json",
@@ -9,13 +9,18 @@
     "start": "sanity start",
     "build": "sanity build",
     "deploy": "sanity deploy",
-    "deploy-graphql": "sanity graphql deploy"
+    "deploy-graphql": "sanity graphql deploy",
+    "import-data": "node scripts/import-data.mjs"
   },
   "keywords": [
-    "sanity"
+    "sanity",
+    "clothing",
+    "ecommerce",
+    "fashion"
   ],
   "dependencies": {
     "@sanity/vision": "^4.6.1",
+    "node-fetch": "^3.3.2",
     "react": "^19.1",
     "react-dom": "^19.1",
     "sanity": "^4.6.1",
